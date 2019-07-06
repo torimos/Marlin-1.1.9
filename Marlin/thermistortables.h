@@ -125,6 +125,9 @@
 #if ANY_THERMISTOR_IS(1047) // Pt1000 with 4k7 pullup
   #include "thermistortable_1047.h"
 #endif
+#if ANY_THERMISTOR_IS(997) // User-defined table 0
+  #include "thermistortable_997.h"
+#endif
 #if ANY_THERMISTOR_IS(998) // User-defined table 1
   #include "thermistortable_998.h"
 #endif
